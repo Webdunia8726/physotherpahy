@@ -4,9 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container {
-    padding: 20px;
-}
 
 h1, h2, h4, h5 {
     margin-top: 20px;
@@ -38,5 +35,69 @@ ul li {
 @media (max-width: 576px) {
     p, ul li {
         font-size: 0.9rem;
+    }
+}
+/* Base styling for h1, h2, h3 */
+h1 {
+    color: #ff5733 !important; /* Orange color */
+    font-size: 3rem;
+}
+
+h2 {
+    color: #33ff57 !important; /* Green color */
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #3357ff !important; /* Blue color */
+    font-size: 2rem;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) { /* Large screens and laptops */
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 992px) { /* Tablets */
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile phones */
+    h1 {
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 576px) { /* Small mobile phones */
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+    h3 {
+        font-size: 1rem;
     }
 }
